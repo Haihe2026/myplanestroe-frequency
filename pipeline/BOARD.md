@@ -4,4 +4,4 @@
 
 | skill-id | 中文名 | 版本 | stage | updated_at | 备注 |
 |---|---|---|---|---|---|
-| cross-border-keyword-ranking | 跨境关键词排名助手 | — | brief_ready | — | 频次线首单（测试单），B.0 调研进行中 |
+| cross-border-keyword-ranking | 跨境关键词排名助手 | — | brief_ready | 2026-11-17T00:36:00+08:00 | 频次线首单（测试单），已派 Codex 写规格 |
