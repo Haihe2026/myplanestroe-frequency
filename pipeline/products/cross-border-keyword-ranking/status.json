@@ -18,8 +18,8 @@
   "skill_id": "cross-border-keyword-ranking",
   "sop": "sop-frequency-skill-auto",
   "sop_version": "a6399ebe211761999da7c892c40038420939920e",
-  "stage": "blocked",
-  "updated_at": "2026-11-17T10:06:12+08:00",
+  "stage": "brief_ready",
+  "updated_at": "2026-11-17T10:24:54+08:00",
   "versions": {
     "listed": null,
     "package": null
