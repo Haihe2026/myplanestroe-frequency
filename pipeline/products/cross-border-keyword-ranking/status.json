@@ -1,8 +1,15 @@
 {
-  "blocked": null,
-  "claimed_at": "2026-11-17T09:37:43+08:00",
-  "lane": "fast",
-  "owner": "codex",
+  "blocked": {
+    "at_stage": "spec_in_progress",
+    "by": "codex",
+    "reason_code": "HARD_STOP",
+    "detail": "A1_EVIDENCE_INCOMPLETE：B01业务接口/结算源、B02适配器合同、B03成本、B04登记logo资源及实际logo缺件；未声称补丁已实现或已测好待部署。",
+    "needs": "Muse补频次上下文可核的后台源码/部署与账单定价证据、排名适配器/有效单位合同、成本来源和登记logo资源入口；不需要再授权logo，不重新拍板共享隔离，不从生图仓取材。",
+    "resume_to": "brief_ready"
+  },
+  "claimed_at": null,
+  "lane": "deploy",
+  "owner": null,
   "rounds": {
     "dev": 0,
     "spec": 0,
@@ -11,8 +18,8 @@
   "skill_id": "cross-border-keyword-ranking",
   "sop": "sop-frequency-skill-auto",
   "sop_version": "a6399ebe211761999da7c892c40038420939920e",
-  "stage": "spec_in_progress",
-  "updated_at": "2026-11-17T09:37:43+08:00",
+  "stage": "blocked",
+  "updated_at": "2026-11-17T10:06:12+08:00",
   "versions": {
     "listed": null,
     "package": null

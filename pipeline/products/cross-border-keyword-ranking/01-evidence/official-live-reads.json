@@ -1,0 +1,26 @@
+[
+  {
+    "at": "2026-11-17T10:02:23+08:00",
+    "url": "https://open.workbuddy.cn/docs/skill",
+    "http_status": 200,
+    "bytes": 284943,
+    "sha256": "c82b87f6ee638c564a28436cc76b7d0d7135655fa73adf215249c9b88af5210f",
+    "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+  },
+  {
+    "at": "2026-11-17T10:02:23+08:00",
+    "url": "https://open.workbuddy.cn/docs/expert",
+    "http_status": 200,
+    "bytes": 351247,
+    "sha256": "f765906bf4c7565f9d6e640cc701408eff11bb02f8203b3d24f6c0e69b7580e3",
+    "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+  },
+  {
+    "at": "2026-11-17T10:02:23+08:00",
+    "url": "https://open.workbuddy.cn/docs/what-is-open-platform",
+    "http_status": 200,
+    "bytes": 259256,
+    "sha256": "6e4f82f8dfbd3d1102fb941c60337395c052af61aebc8d02321c7fc8adec2f48",
+    "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+  }
+]

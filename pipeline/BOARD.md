@@ -4,4 +4,4 @@
 
 | skill-id | 中文名 | 版本 | stage | updated_at | 备注 |
 |---|---|---|---|---|---|
-| cross-border-keyword-ranking | 跨境关键词排名助手 | spec_in_progress | codex | 2026-11-17T00:36:00+08:00 | 2026-11-17T09:37:43+08:00 |
+| cross-border-keyword-ranking | 跨境关键词排名助手 | blocked | — | 1.0.0规格候选（A1缺B01–B04来源/资源证据） | 2026-11-17T10:06:12+08:00 |

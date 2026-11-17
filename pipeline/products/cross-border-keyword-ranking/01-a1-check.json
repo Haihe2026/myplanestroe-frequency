@@ -1,0 +1,118 @@
+{
+  "at": "2026-11-17T10:06:12+08:00",
+  "result": "NOT_PASSED_EVIDENCE_MISSING",
+  "may_set_spec_ready": false,
+  "document_checks": {
+    "JSON_PARSE": "PASS_DOCUMENT_CHECK_ONLY",
+    "ID_AND_CHANNEL": "PASS_DOCUMENT_CHECK_ONLY",
+    "PAYMENT_EXACT": "PASS_DOCUMENT_CHECK_ONLY",
+    "FREE_AND_ACTUAL_PRICE": "PASS_DOCUMENT_CHECK_ONLY",
+    "SCENE_SAMPLE_KEYS": "PASS_DOCUMENT_CHECK_ONLY",
+    "FRONTMATTER": "PASS_DOCUMENT_CHECK_ONLY",
+    "A1_NOT_FALSIFIED": "PASS_DOCUMENT_CHECK_ONLY",
+    "UNKNOWN_COST_NOT_ZERO": "PASS_DOCUMENT_CHECK_ONLY",
+    "LOGO_NOT_FAKED": "PASS_DOCUMENT_CHECK_ONLY",
+    "OFFICIAL_LIVE": "PASS_DOCUMENT_CHECK_ONLY"
+  },
+  "missing": [
+    {
+      "id": "B01",
+      "kind": "business_backend_evidence",
+      "needs": "实际账户恢复、定价/余额/plans、签发listing链接、业务任务/续接、原账单、回调验证的固定源码/路径/部署证据；不含key或真实客户数据",
+      "affects": [
+        "A1_6",
+        "A1_8",
+        "A1_9"
+      ]
+    },
+    {
+      "id": "B02",
+      "kind": "ranking_adapter_and_billing_contract",
+      "needs": "来源/metric/页面/覆盖协议与适配器固定实现、有效结果单位及部分结果结算/任务预算/幂等证据",
+      "affects": [
+        "A1_7",
+        "A1_8",
+        "A1_9"
+      ]
+    },
+    {
+      "id": "B03",
+      "kind": "cost_and_margin_evidence",
+      "needs": "实际采集/计算/存储或供应商成本、计量与限额；毛利达到0.6的可核计算，不以未知当0",
+      "affects": [
+        "A1_7"
+      ]
+    },
+    {
+      "id": "B04",
+      "kind": "registered_logo_asset",
+      "needs": "本单可用登记生图资产ID/固定来源/安全调用方式/成本及audit落点；按已有长期授权生成1张并验证文件",
+      "affects": [
+        "A1_5"
+      ]
+    }
+  ],
+  "official_reads": [
+    {
+      "at": "2026-11-17T10:02:23+08:00",
+      "url": "https://open.workbuddy.cn/docs/skill",
+      "http_status": 200,
+      "bytes": 284943,
+      "sha256": "c82b87f6ee638c564a28436cc76b7d0d7135655fa73adf215249c9b88af5210f",
+      "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+    },
+    {
+      "at": "2026-11-17T10:02:23+08:00",
+      "url": "https://open.workbuddy.cn/docs/expert",
+      "http_status": 200,
+      "bytes": 351247,
+      "sha256": "f765906bf4c7565f9d6e640cc701408eff11bb02f8203b3d24f6c0e69b7580e3",
+      "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+    },
+    {
+      "at": "2026-11-17T10:02:23+08:00",
+      "url": "https://open.workbuddy.cn/docs/what-is-open-platform",
+      "http_status": 200,
+      "bytes": 259256,
+      "sha256": "6e4f82f8dfbd3d1102fb941c60337395c052af61aebc8d02321c7fc8adec2f48",
+      "read_result": "fresh online read before specification clarification of stable observation source vs source artifact hash"
+    }
+  ],
+  "md_sha256": "2c66490e5676b6bb64e95cbb590740887b3a3daff3ac8b5799ce4dea947eaf23",
+  "json_sha256": "e14d16b1c4d5626d59433bc6e4442546131f91f254e3bd46bb08fee1ead041cc",
+  "product_implementation_tests_run": 0,
+  "real_upstream_calls": 0,
+  "logo_calls": 0,
+  "production_changes": 0,
+  "source_refs": [
+    {
+      "kind": "muse_fixed_handoff",
+      "repository": "Haihe2026/myplanestroe-frequency",
+      "source_ref": "9dfa8c99357c6b4bf31c0bf28bf7cb5019138fb1",
+      "path": "pipeline/products/cross-border-keyword-ranking/msg-from-muse-20261116-cross-border-keyword-ranking-brief.md"
+    },
+    {
+      "kind": "current_sop_and_brief",
+      "repository": "Haihe2026/myplanestroe-frequency",
+      "source_ref": "5b6745fe6b35335bbc33ce24614dd0a48dda83ab",
+      "paths": [
+        "docs/sop/sop-frequency-skill-auto.md",
+        "pipeline/config.yaml",
+        "pipeline/products/cross-border-keyword-ranking/00-brief.md"
+      ]
+    },
+    {
+      "kind": "product_claim",
+      "repository": "Haihe2026/myplanestroe-frequency",
+      "source_ref": "e55e0508245b583307ba5eb2c2596b3c0970b530",
+      "path": "pipeline/products/cross-border-keyword-ranking/status.json"
+    },
+    {
+      "kind": "full_tree_business_evidence_inventory",
+      "repository": "Haihe2026/myplanestroe-frequency",
+      "source_ref": "e55e0508245b583307ba5eb2c2596b3c0970b530",
+      "path": "/",
+      "result": "13 files; no business backend/source/deployment evidence or upstream resource registry supplied"
+    }
+  ]
+}
